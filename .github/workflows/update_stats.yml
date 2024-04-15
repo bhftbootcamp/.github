@@ -1,0 +1,134 @@
+name: UpStats
+
+on:
+  schedule:
+    - cron: 0 0,12 * * *
+  workflow_dispatch:
+
+jobs:
+  update:
+    name: Update readme
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: julia-actions/setup-julia@v2
+      - uses: julia-actions/cache@v1
+      - name: Configure Git
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq git
+          git config --global user.name github-actions[bot]
+          git config --global user.email github-actions[bot]@users.noreply.github.com
+      - name: Add pkgs
+        run: |
+          julia -e '
+            using Pkg
+            Pkg.update()
+            Pkg.add(["EasyCurl", "Serde", "Mustache"])
+          '
+      - name: Statistics
+        run: |
+          julia -e '
+            using Serde
+            using EasyCurl
+            using Mustache
+
+            stargazers = 0
+            unique_contributors = Set{Int64}()
+            starter_task = 0
+            intermediate_task = 0
+            advanced_task = 0
+
+            repos = curl_get(
+                "https://api.github.com/orgs/bhftbootcamp/repos?type=public",
+                headers = [
+                    "Accept" => "application/vnd.github+json",
+                    "Authorization" => "Bearer ${{ secrets.REGISTRATOR_TOKEN }}",
+                    "X-GitHub-Api-Version" => "2022-11-28",
+                ],
+            ) |> curl_body |> String |> parse_json
+
+            for repo in repos
+                global stargazers += repo["stargazers_count"]
+                name = repo["name"]
+                contributors = curl_get(
+                    "https://api.github.com/repos/bhftbootcamp/$name/contributors",
+                    headers = [
+                        "Accept" => "application/vnd.github+json",
+                        "Authorization" => "Bearer ${{ secrets.REGISTRATOR_TOKEN }}",
+                        "X-GitHub-Api-Version" => "2022-11-28",
+                    ],
+                ) |> curl_body |> String |> parse_json
+
+                foreach(x -> push!(unique_contributors, x["id"]), contributors)
+
+                tasks = curl_get(
+                "https://api.github.com/repos/bhftbootcamp/$name/issues",
+                headers = [
+                    "Accept" => "application/vnd.github+json",
+                    "Authorization" => "Bearer ${{ secrets.REGISTRATOR_TOKEN }}",
+                    "X-GitHub-Api-Version" => "2022-11-28",
+                ],
+                ) |> curl_body |> String |> parse_json
+
+                for task in tasks
+                    for label in task["labels"]
+                        label_name = label["name"]
+                        if label_name  == "starter_task"
+                            global starter_task += 1
+                        elseif label_name == "intermediate_task"
+                            global intermediate_task += 1
+                        elseif label_name == "advanced_task"
+                            global advanced_task += 1
+                        end
+                    end
+                end
+            end
+
+            const light_theme = (background = "e5e9ec", text = "1d2024")
+            const dark_theme = (background = "353a42", text = "e2eaf1")
+
+            function svg(text::String, theme::NamedTuple; height::Integer = 22)
+                n = length(text)
+                width = max(18, n * 10 + 4)
+                x_pos = width / 2.0
+
+                """
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="$width" height="$(height)">
+                    <clipPath id="r">
+                        <rect width="$width" height="$height" rx="5" fill="#fff"/>
+                    </clipPath>
+                    <g clip-path="url(#r)">
+                        <rect width="$width" height="$height" fill="#$(theme[:background])"/>
+                    </g>
+                    <g fill="#$(theme[:text])" text-anchor="middle" font-family="Liberation Mono, monospace" text-rendering="geometricPrecision" font-size="14px">
+                        <text x="$x_pos" y="16">$text</text>
+                    </g>
+                </svg>
+
+                """
+            end
+
+            mkpath("assets/stats/light")
+            write("assets/stats/light/contributors.svg", svg(string(length(unique_contributors)), light_theme))
+            write("assets/stats/light/stargazers.svg", svg(string(stargazers), light_theme))
+            write("assets/stats/light/starter_task.svg", svg(string(starter_task), light_theme))
+            write("assets/stats/light/intermediate_task.svg", svg(string(intermediate_task), light_theme))
+            write("assets/stats/light/advanced_task.svg", svg(string(advanced_task), light_theme))
+
+            mkpath("assets/stats/dark")
+            write("assets/stats/dark/contributors.svg", svg(string(length(unique_contributors)), dark_theme))
+            write("assets/stats/dark/stargazers.svg", svg(string(stargazers), dark_theme))
+            write("assets/stats/dark/starter_task.svg", svg(string(starter_task), dark_theme))
+            write("assets/stats/dark/intermediate_task.svg", svg(string(intermediate_task), dark_theme))
+            write("assets/stats/dark/advanced_task.svg", svg(string(advanced_task), dark_theme))
+          '
+      - name: Push changes
+        run: |
+          git add .
+          git commit -qm "Update stats"
+          git push -uf origin master
