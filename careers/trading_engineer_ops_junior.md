@@ -53,7 +53,7 @@ Our bootcamp lasts from (<img align=bottom src=/assets/4_6_months.gif width=100p
 
 <div style="font-family: monospace; font-size: 1.2em;">
 - Experience with TradingView, Grafana, Tableau.<br>
-- Knowledge of basic trading terminology (order book, bid/ask<img align=bottom src=/assets/bid_ask.gif width=50px height=12px>, spread, etc.).<br>
+- Knowledge of basic trading terminology (order book, bid/ask<img align=bottom src=/assets/bid_ask.gif width=60px height=12px>, spread, etc.).<br>
 - Exposure to traditional exchanges.<br>
 - Familiarity with cryptocurrency exchanges.<br>
 </div>
