@@ -4,9 +4,8 @@
     <th colspan=2 align=left>
     <img src=https://avatars.githubusercontent.com/u/154593302?s=200&v=4 height=80 align=left>
       <div align=left>
-        #bhftbootcamp 
-        <img src="https://github.com/bhftbootcamp/.github/blob/master/assets/pepe/hey.gif" width="25" height="25" /> <br>
-        $\color{grey}\texttt{Hello everyone! We're glad to see you here!}$
+        #bhftbootcamp <br>
+        $\color{grey}\texttt{Hello everyone!}$ <img src="https://github.com/bhftbootcamp/.github/blob/master/assets/pepe/hey.gif" width="25" height="25" /> $\color{grey}\texttt{ We're glad to see you here!}$
       </div>
     </th>
   </tr>
@@ -16,25 +15,26 @@
         
 ### About Us
 
-**The BHFT team** is a trading company that specializes in developing algorithms for trading and software.  
+**Our company** develops trading algorithms and software.
 We work across a wide range of exchanges and assets, and we believe that **anyone can be successful in this field**!
 
 ### Our Open-Source Project
 
-Our open-source project is driven by a team of passionate individuals who **love what they do**. Here's what we offer:
+Our open-source is driven by a team of individuals who **love what they do**. What will you find here:
 
-- **Utilities for Financial Markets:** Tools and utilities that help in trading and financial analysis.
+- **Utilities for Financial Markets:** Specialized utilities that help in trading and financial analysis.
 - **Knowledge Sharing:** We exchange experiences and insights which are invaluable in financial markets.
 
 ### Join Us
 
-If you are **passionate** about financial markets and aspire to a <a href=https://github.com/bhftbootcamp/.github/blob/master/careers/vacancies.md>career</a> in **High-Frequency Trading (HFT)**:
+If you are as interested about financial markets as we are and aspire <a href=https://github.com/bhftbootcamp/.github/blob/master/careers/vacancies.md>career</a> in **High-Frequency Trading (HFT)**, you can:
+
 - <img src=https://github.com/bhftbootcamp/.github/blob/master/assets/pepe/hackerman.gif height=25px> **Join us** to contribute to the development of cutting-edge trading technologies.
-- <img src=https://github.com/bhftbootcamp/.github/blob/master/assets/pepe/greet.gif height=25px> **Become part of our community** where innovation meets real-world trading challenges.
+- <img src=https://github.com/bhftbootcamp/.github/blob/master/assets/pepe/greet.gif height=25px> **Become part of our community** where innovation meets real-world trading challenges.  
 
 ### Tasks
 
-You can also take the fast track: Solve one of the tasks in open source and come to the final interview with the TeamLead.
+In case you want to join our team, send your CV to our HR or take the **fast track**: Solve one of the tasks in open source and come to the final interview with the TeamLead. Examples of tasks are listed below.
 
 <table>
 <tr>
@@ -66,13 +66,12 @@ You can also take the fast track: Solve one of the tasks in open source and come
 
 For more details and to connect with our team: <img src=https://github.com/bhftbootcamp/.github/blob/master/assets/pepe/cute.gif height=30px>
 
-- **Join Our Slack Community:** Join our [Slack channel](https://join.slack.com/t/bhftbootcamp/shared_invite/zt-2gsw6a5uu-AW6rjmXbEgNj4TeaRc~BXA) to engage with our team and community members.
-- **Email Us:** Reach out to our HR recruiter via [email](mailto:epopova@bhft.com) for any queries or opportunities.
+- **Email Us:** Reach out to our HR via [email](mailto:epopova@bhft.com) for any queries or opportunities.
 
 <img src=https://github.com/bhftbootcamp/.github/blob/master/assets/bhftbootcamp.gif>
       </p>
       <p align=right>
-<code>#bhft</code> <code>#bhftbootcamp</code> <code>#trading</code> <code>#trading_engineer</code>  <code>#julialang</code>
+<code>#bhftbootcamp</code> <code>#trading</code> <code>#trading_engineer</code>  <code>#julialang</code>
       </p>
       <p align=right>
 👥 Contributors:
