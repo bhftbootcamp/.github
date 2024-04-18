@@ -13,7 +13,7 @@ Join the Trading Developers Team!
 
 The Trading Developers team focuses on trading infrastructure, including data acquisition, processing and visualization, development and maintenance of back-office systems, optimization algorithms, and reconciliations.
 
-Our bootcamp lasts from (<img align=bottom src=/assets/1_4_months.gif width=100px height=12px>). It is not an internship but a full-time paid position. During the bootcamp, you will solve real business problems and gain new knowledge, both in trading and in software engineering.
+Our bootcamp lasts from (<img align=bottom src=/assets/1_4_months.gif width=96px height=12px>). It is not an internship but a full-time paid position. During the bootcamp, you will solve real business problems and gain new knowledge, both in trading and in software engineering.
 
 <h2>$\color{#1c8139}\texttt{bootcamp>\_}$ $\texttt{what\_you\_will\_do}$</h2>
 
@@ -29,7 +29,7 @@ Our bootcamp lasts from (<img align=bottom src=/assets/1_4_months.gif width=100p
 <h2>$\color{#1c8139}\texttt{bootcamp>\_}$ $~\texttt{what\_we\_expect}$</h2>
 
 <div style="font-family: monospace; font-size: 1.2em;">
-- 2+ years of experience in <img src=/assets/julia_python_go_rust.gif width=220px height=26px><br>
+- 2+ years of experience in <img src=/assets/julia_python_go_rust.gif width=192px height=26px><br>
 - Experience in web applications development.<br>
 - Sound knowledge of multithreaded and network programming.<br>
 - Ability to profile and optimize code.<br>
@@ -50,7 +50,7 @@ Our bootcamp lasts from (<img align=bottom src=/assets/1_4_months.gif width=100p
 <h2>$\color{#1c8139}\texttt{bootcamp>\_}$ $~\texttt{would\_be\_a\_plus}$</h2>
 
 <div style="font-family: monospace; font-size: 1.2em;">
-- Knowledge of financial markets and trading <img align=bottom src=/assets/bid_ask.gif width=60px height=12px> systems.<br>
+- Knowledge of financial markets and trading <img align=bottom src=/assets/bid_ask.gif width=64px height=12px> systems.<br>
 - Development of services for trading support or independent development of trading infrastructure.<br>
 - Ability to work with unstructured data.<br>
 - Experience with frontend and data visualization.<br>
