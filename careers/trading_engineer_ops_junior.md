@@ -13,12 +13,12 @@ Join the Trading Operations Team!
 
 The Trading Operations team supports trading operations and conducts financial analysis to enhance profitability and trading efficiency. We also undertake market research and backtest trading strategies.
 
-Our bootcamp lasts from (<img align=bottom src=/assets/4_6_months.gif width=100px height=12px>). It is not an internship but a full-time paid position. During the bootcamp, you will solve real business problems and gain in-depth knowledge, both in trading operations and in software engineering.
+Our bootcamp lasts from (<img align=bottom src=/assets/4_6_months.gif width=96px height=12px>). It is not an internship but a full-time paid position. During the bootcamp, you will solve real business problems and gain in-depth knowledge, both in trading operations and in software engineering.
 
 <h2>$\color{#1c8139}\texttt{bootcamp>\_}$ $\texttt{what\_you\_will\_do}$</h2>
 
 <div style="font-family: monospace; font-size: 1.2em;">
-- Solve analytical tasks based on trading data using <img src=/assets/julia_python_sql_excel.gif width=220px height=26px>.<br>
+- Solve analytical tasks based on trading data using <img src=/assets/julia_python_sql_excel.gif width=210px height=26px>.<br>
 - Manage trading instruments in trading systems (adding/removing instruments, changing order size, etc.).<br>
 - Act upon error and warning messages in product logs following a pre-established action plan.<br>
 - Setup and support monitoring dashboards.<br>
@@ -53,7 +53,7 @@ Our bootcamp lasts from (<img align=bottom src=/assets/4_6_months.gif width=100p
 
 <div style="font-family: monospace; font-size: 1.2em;">
 - Experience with TradingView, Grafana, Tableau.<br>
-- Knowledge of basic trading terminology (order book, bid/ask<img align=bottom src=/assets/bid_ask.gif width=60px height=12px>, spread, etc.).<br>
+- Knowledge of basic trading terminology (order book, bid/ask<img align=bottom src=/assets/bid_ask.gif width=64px height=12px>, spread, etc.).<br>
 - Exposure to traditional exchanges.<br>
 - Familiarity with cryptocurrency exchanges.<br>
 </div>
