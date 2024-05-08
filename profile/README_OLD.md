@@ -67,23 +67,26 @@ In case you want to join our team, send your CV to our HR or take the **fast tra
 For more details and to connect with our team: <img src=https://github.com/bhftbootcamp/.github/blob/master/assets/pepe/cute.gif height=30px>
 
 - **Email Us:** Reach out to our HR via [email](mailto:epopova@bhft.com) for any inquiries or opportunities.
+
+<img src=https://github.com/bhftbootcamp/.github/blob/master/assets/bhftbootcamp.gif>
       </p>
-    </td>
-  </tr>
-  <tr>
-    <td align=right>
+      <p align=right>
+<code>#bhftbootcamp</code> <code>#trading</code> <code>#trading_engineer</code>  <code>#julialang</code>
+      </p>
+      <p align=right>
 👥 Contributors:
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset=https://github.com/bhftbootcamp/.github/blob/master/assets/stats/dark/contributors.svg>
-          <source media="(prefers-color-scheme: light)" srcset=https://github.com/bhftbootcamp/.github/blob/master/assets/stats/light/contributors.svg>
-          <img src=https://github.com/bhftbootcamp/.github/blob/master/assets/stats/light/contributors.svg height=22px align=center>
-        </picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=https://github.com/bhftbootcamp/.github/blob/master/assets/stats/dark/contributors.svg>
+  <source media="(prefers-color-scheme: light)" srcset=https://github.com/bhftbootcamp/.github/blob/master/assets/stats/light/contributors.svg>
+  <img src=https://github.com/bhftbootcamp/.github/blob/master/assets/stats/light/contributors.svg height=22px align=center>
+</picture>
 🌟 Stars:
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset=https://github.com/bhftbootcamp/.github/blob/master/assets/stats/dark/stargazers.svg>
-          <source media="(prefers-color-scheme: light)" srcset=https://github.com/bhftbootcamp/.github/blob/master/assets/stats/light/stargazers.svg>
-          <img src=https://github.com/bhftbootcamp/.github/blob/master/assets/stats/light/stargazers.svg height=22px align=center>
-        </picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=https://github.com/bhftbootcamp/.github/blob/master/assets/stats/dark/stargazers.svg>
+  <source media="(prefers-color-scheme: light)" srcset=https://github.com/bhftbootcamp/.github/blob/master/assets/stats/light/stargazers.svg>
+  <img src=https://github.com/bhftbootcamp/.github/blob/master/assets/stats/light/stargazers.svg height=22px align=center>
+</picture>
+      </p>
     </td>
   </tr>
 </table>
