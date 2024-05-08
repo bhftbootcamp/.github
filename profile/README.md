@@ -67,7 +67,7 @@ In case you want to join our team, send your CV to our HR or take the **fast tra
 For more details and to connect with our team: <img src=https://github.com/bhftbootcamp/.github/blob/master/assets/pepe/cute.gif height=30px>
 
 - **Email Us:** Reach out to our HR via [email](mailto:epopova@bhft.com) for any inquiries or opportunities.
-
+<br>
 <code>#bhftbootcamp</code> <code>#trading</code> <code>#trading_engineer</code>  <code>#julialang</code>
       </p>
     </td>
