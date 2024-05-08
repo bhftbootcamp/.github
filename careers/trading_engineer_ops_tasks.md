@@ -13,7 +13,7 @@
 
 ## #1. Building the spread between the futures and spot markets
 
-Plot the spread between the [close price](https://en.wikipedia.org/wiki/Open-high-low-close_chart) of minute candles of the futures contract [BTCUSDT](https://www.binance.com/en/futures/BTCUSDT) and the corresponding spot market on the [Binance](https://www.binance.com/en) exchange for the year 2023, using [LightweightCharts](https://www.tradingview.com/lightweight-charts/) for visualization and [CryptoAPIs](https://github.com/bhftbootcamp/CryptoAPIs.jl) for data acquisition.
+Plot the spread between the [close price](https://en.wikipedia.org/wiki/Open-high-low-close_chart) of minute candles of the futures contract [BTCUSDT](https://www.binance.com/en/futures/BTCUSDT) and the corresponding spot market on the [Binance](https://www.binance.com/en) exchange for the year 2023, using [LightweightCharts](https://github.com/bhftbootcamp/LightweightCharts.jl) for visualization and [CryptoAPIs](https://github.com/bhftbootcamp/CryptoAPIs.jl) for data acquisition.
 
 ## #2. Calculation of the absolute value of income from funding
 
@@ -41,8 +41,8 @@ Bybit
 
 ## #4. Acquiring OHLC data
 
-Create a script that collects L1 market data from a cryptocurrency exchange (use any) and stores it in [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) with [TimescaleDB](https://www.timescale.com/) plugin. Based on the acquired data formulate 1s-candles [OHLC](https://en.wikipedia.org/wiki/Open-high-low-close_chart)) and visualize them using [LightweightCharts](https://www.tradingview.com/lightweight-charts/). Don't forget to define indexes and hypertables. Be ready to answer questions about your queries based on [EXPLAIN ANALYZE](https://www.postgresql.org/docs/current/sql-explain.html).
+Create a script that collects L1 market data from a cryptocurrency exchange (use any) and stores it in [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) with [TimescaleDB](https://www.timescale.com/) plugin. Based on the acquired data formulate 1s-candles [OHLC](https://en.wikipedia.org/wiki/Open-high-low-close_chart)) and visualize them using [LightweightCharts](https://github.com/bhftbootcamp/LightweightCharts.jl). Don't forget to define indexes and hypertables. Be ready to answer questions about your queries based on [EXPLAIN ANALYZE](https://www.postgresql.org/docs/current/sql-explain.html).
 
 ## #5. Ethereum transaction fees
 
-Acquire historical [GAS](https://ethereum.org/en/developers/docs/gas/) fees on [Ethereum](https://ethereum.org/en/) blockchain from 00:00 UTC December 27, 2023, to 00:00 UTC December 28, 2023 and plot a graph showing rate of change. Use [LightweightCharts](https://www.tradingview.com/lightweight-charts/) for data visualization.
+Acquire historical [GAS](https://ethereum.org/en/developers/docs/gas/) fees on [Ethereum](https://ethereum.org/en/) blockchain from 00:00 UTC December 27, 2023, to 00:00 UTC December 28, 2023 and plot a graph showing rate of change. Use [LightweightCharts](https://github.com/bhftbootcamp/LightweightCharts.jl) for data visualization.
