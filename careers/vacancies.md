@@ -24,7 +24,7 @@ Here you can find open vacancies
 <img src=https://github.com/bhftbootcamp/.github/blob/master/assets/bhftbootcamp.gif>
       </p>
       <p align=right>
-<code>#bhft</code> <code>#bhftbootcamp</code> <code>#trading</code> <code>#trading_engineer</code>  <code>#julialang</code>
+<code>#bhftbootcamp</code> <code>#trading</code> <code>#trading_engineer</code>  <code>#julialang</code>
       </p>
     </td>
   </tr>
