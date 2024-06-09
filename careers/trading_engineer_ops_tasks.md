@@ -17,7 +17,7 @@ Plot the spread between the [close price](https://en.wikipedia.org/wiki/Open-hig
 
 ## #2. Calculation of the absolute value of income from funding
 
-Determine the total income from the funding rate for a ‘long’ position of 1000 contracts [AUCTIONUSDT](https://www.binance.com/en/futures/AUCTIONUSDT) on [BinanceUSDMFutures](https://www.binance.com/en/futures/home). Calculate this income in dollars for the period from 00:00 UTC December 27, 2023, to 00:00 UTC December 28, 2023. Build a cumulative yield chart using any of the following visualization tools: LightweightCharts, MatplotLib or Julia Plots.
+Determine the total income from the funding rate for a ‘long’ position of 1000 contracts [AUCTIONUSDT](https://www.binance.com/en/futures/AUCTIONUSDT) on [BinanceUSDMFutures](https://www.binance.com/en/futures/home). Calculate this income in dollars for the period from 00:00 UTC December 27, 2023, to 00:00 UTC December 28, 2023. Build a cumulative yield chart using any of the following visualization tools: [LightweightCharts](https://github.com/bhftbootcamp/LightweightCharts.jl), MatplotLib or Julia Plots.
 
 ## #3. Arbitrage instruments search
 
