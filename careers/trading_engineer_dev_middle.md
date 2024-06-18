@@ -31,7 +31,7 @@ Our bootcamp lasts from (<img align=bottom src=/assets/1_4_months.gif width=96px
 <div style="font-family: monospace; font-size: 1.2em;">
 - 2+ years of experience in <img src=/assets/julia_python_go_rust.gif width=192px height=26px><br>
 - Experience in web applications development.<br>
-- Sound knowledge of multithreaded and network programming.<br>
+- Sound knowledge of multithreaded programming.<br>
 - Ability to profile and optimize code.<br>
 </div>
 
@@ -44,7 +44,7 @@ Our bootcamp lasts from (<img align=bottom src=/assets/1_4_months.gif width=96px
 - ClickHouse<br>
 - GitLab<br>
 - Grafana + Loki<br>
-- FIX, HTTP, WS, gRPC<br>
+- HTTP, WS, gRPC<br>
 </div>
 
 <h2>$\color{#1c8139}\texttt{bootcamp>\_}$ $~\texttt{would\_be\_a\_plus}$</h2>
