@@ -133,3 +133,4 @@ jobs:
           git add .
           git commit -qm "Update stats"
           git push -uf origin master
+        continue-on-error: true
