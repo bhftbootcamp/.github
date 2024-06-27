@@ -29,8 +29,8 @@ Our open-source is driven by a team of individuals who **love what they do**. Wh
 
 If you are as interested about financial markets as we are and aspire <a href=https://github.com/bhftbootcamp/.github/blob/master/careers/vacancies.md>career</a> in **High-Frequency Trading (HFT)**, you can:
 
-- <img src=https://github.com/bhftbootcamp/.github/blob/master/assets/pepe/hackerman.gif height=25px> **Join us** to contribute to the development of cutting-edge trading technologies.
-- <img src=https://github.com/bhftbootcamp/.github/blob/master/assets/pepe/greet.gif height=25px> **Become part of our community** where innovation meets real-world trading challenges.  
+- <img src=https://github.com/bhftbootcamp/.github/blob/master/assets/pepe/hackerman.gif height=25px width=25px> **Join us** to contribute to the development of cutting-edge trading technologies.
+- <img src=https://github.com/bhftbootcamp/.github/blob/master/assets/pepe/greet.gif height=25px width=25px> **Become part of our community** where innovation meets real-world trading challenges.  
 
 ### Tasks
 
@@ -64,7 +64,7 @@ In case you want to join our team, send your CV to our HR or take the **fast tra
 
 ### Contact
 
-For more details and to connect with our team: <img src=https://github.com/bhftbootcamp/.github/blob/master/assets/pepe/cute.gif height=30px>
+For more details and to connect with our team: <img src=https://github.com/bhftbootcamp/.github/blob/master/assets/pepe/cute.gif height=30px width=30px>
 
 - **Email Us:** Reach out to our HR via [email](mailto:epopova@bhft.com) for any inquiries or opportunities.
       </p>
