@@ -1,6 +1,6 @@
 <pre>
   ___ _  _ ___ _____                     |
- | _ ) || | __|_   _|                    |  Contact us:  <a href="mailto: epopova@bhft.com">epopova@bhft.com</a>
+ | _ ) || | __|_   _|                    |  Contact us:  <a href="mailto: opensource@bhftbootcamp.com">opensource@bhftbootcamp.com</a>
  | _ \ __ | _|  | |                      |  Open-source: <a href="https://github.com/bhftbootcamp">https://github.com/bhftbootcamp</a>
  |___/_||_|_|   |_|                      |
  | _ ) ___  ___| |_ __ __ _ _ __  _ __   |  
