@@ -12,7 +12,7 @@
   <tr>
     <td colspan=2>
       <p>
-        
+
 ### About Us
 
 **Our company** develops trading algorithms and software.
@@ -27,14 +27,14 @@ Our open-source is driven by a team of individuals who **love what they do**. Wh
 
 ### Join Us
 
-If you are as interested about financial markets as we are and aspire <a href=https://github.com/bhftbootcamp/.github/blob/master/careers/vacancies.md>career</a> in **High-Frequency Trading (HFT)**, you can:
+If you are as interested in financial markets as we are and want to contribute, you can:
 
-- <img src=https://github.com/bhftbootcamp/.github/blob/master/assets/pepe/hackerman.gif height=25px width=25px> **Join us** to contribute to the development of cutting-edge trading technologies.
-- <img src=https://github.com/bhftbootcamp/.github/blob/master/assets/pepe/greet.gif height=25px width=25px> **Become part of our community** where innovation meets real-world trading challenges.  
+- <img src=https://github.com/bhftbootcamp/.github/blob/master/assets/pepe/hackerman.gif height=25px width=25px> **Join us** to contribute to the development of trading technologies.
+- <img src=https://github.com/bhftbootcamp/.github/blob/master/assets/pepe/greet.gif height=25px width=25px> **Become part of our community** where we tackle real-world trading challenges together.
 
 ### Tasks
 
-In case you want to join our team, send your CV to our HR or take the **fast track**: Solve one of the tasks in open source and come to the final interview with the TeamLead. Examples of tasks are listed below.
+If you'd like to contribute, you can check out the open issues:
 
 <table>
 <tr>
@@ -66,7 +66,7 @@ In case you want to join our team, send your CV to our HR or take the **fast tra
 
 For more details and to connect with our team: <img src=https://github.com/bhftbootcamp/.github/blob/master/assets/pepe/cute.gif height=30px width=30px>
 
-- **Email Us:** Reach out to our HR via [email](mailto:epopova@bhft.com) for any inquiries or opportunities.
+- **Email Us:** If you have any questions, feel free to [email us](mailto:opensource@bhftbootcamp.com).
       </p>
     </td>
   </tr>
