@@ -54,25 +54,25 @@ jobs:
                 global stargazers += repo["stargazers_count"]
             
                 name = repo["name"]
-                contributors = curl_get(
+                contributors = http_get(
                     "https://api.github.com/repos/bhftbootcamp/$name/contributors",
                     headers = [
                         "Accept" => "application/vnd.github+json",
                         "Authorization" => "Bearer ${{ secrets.REGISTRATOR_TOKEN }}",
                         "X-GitHub-Api-Version" => "2022-11-28",
                     ],
-                ) |> curl_body |> String |> parse_json
+                ) |> http_body |> String |> parse_json
             
                 foreach(x -> push!(unique_contributors, x["id"]), contributors)
             
-                tasks = curl_get(
+                tasks = http_get(
                 "https://api.github.com/repos/bhftbootcamp/$name/issues",
                 headers = [
                     "Accept" => "application/vnd.github+json",
                     "Authorization" => "Bearer ${{ secrets.REGISTRATOR_TOKEN }}",
                     "X-GitHub-Api-Version" => "2022-11-28",
                 ],
-                ) |> curl_body |> String |> parse_json
+                ) |> http_body |> String |> parse_json
             
                 for task in tasks
                     for label in task["labels"]
