@@ -46,6 +46,7 @@ jobs:
                 headers = [
                     "Accept" => "application/vnd.github+json",
                     "Authorization" => "Bearer ${{ secrets.REGISTRATOR_TOKEN }}",
+                    "User-Agent" => "Update-Stats",
                     "X-GitHub-Api-Version" => "2022-11-28",
                 ],
             ) |> http_body |> String |> parse_json
@@ -59,6 +60,7 @@ jobs:
                     headers = [
                         "Accept" => "application/vnd.github+json",
                         "Authorization" => "Bearer ${{ secrets.REGISTRATOR_TOKEN }}",
+                        "User-Agent" => "Update-Stats",
                         "X-GitHub-Api-Version" => "2022-11-28",
                     ],
                 ) |> http_body |> String |> parse_json
@@ -70,6 +72,7 @@ jobs:
                 headers = [
                     "Accept" => "application/vnd.github+json",
                     "Authorization" => "Bearer ${{ secrets.REGISTRATOR_TOKEN }}",
+                    "User-Agent" => "Update-Stats",
                     "X-GitHub-Api-Version" => "2022-11-28",
                 ],
                 ) |> http_body |> String |> parse_json
